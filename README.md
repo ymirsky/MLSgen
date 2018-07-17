@@ -3,7 +3,7 @@ In this repository you will find a C++ class implimentation of a [maximum length
 For non-determinsitic random singals, you can have the generator seed the process with your local device's entropy source (std::random_device). Alternatively, you can have the generator seed with a CSPRNG using an AES-256-CTR cipher.
 
 
-![An example MLS generator where the next value of register a3 in a feedback shift register of length 4 is determined by the modulo-2 sum of a0 and a1.(wikipedia)](https://raw.githubusercontent.com/ymirsky/MLSgen/master/MLS_shiftregisters_L4_wikipedia.png | width=600)
+![An example MLS generator where the next value of register a3 in a feedback shift register of length 4 is determined by the modulo-2 sum of a0 and a1.(wikipedia)](https://raw.githubusercontent.com/ymirsky/MLSgen/master/MLS_shiftregisters_L4_wikipedia.png)
 
 
 # Installation
