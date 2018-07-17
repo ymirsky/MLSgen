@@ -3,7 +3,7 @@ In this repository you will find a C++ class implimentation of a [maximum length
 For non-determinsitic random singals, you can have the generator seed the process with your local device's entropy source (std::random_device). Alternatively, you can have the generator seed with a CSPRNG using an AES-256-CTR cipher.
 
 
-![An example MLS generator where the next value of register a3 in a feedback shift register of length 4 is determined by the modulo-2 sum of a0 and a1.(wikipedia)](MLS_shiftregisters_L4_wikipedia.png | width=100)
+![An example MLS generator where the next value of register a3 in a feedback shift register of length 4 is determined by the modulo-2 sum of a0 and a1.(wikipedia)](https://raw.githubusercontent.com/ymirsky/MLSgen/master/MLS_shiftregisters_L4_wikipedia.png | width=600)
 
 
 # Installation
@@ -27,17 +27,7 @@ To execute the compiled demo, run (linux):
 ```
 you should see an output similar to:
 
-> m = 6 (63 bits per sequence : L=2^m-1)
-> 
-> Generating 3 MLS sequences using AES256-CTR
-> Sequence #1: 0 0 1 1 1 1 1 1 0 1 0 1 0 1 1 0 0 1 1 0 1 1 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0 1 1 1 1 0 0 1 0 1 0 0 0 1 1 0 0 0 0 1 0 0 0 
-> Sequence #2: 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0 1 1 1 1 0 0 1 0 1 0 0 0 1 1 0 0 0 0 1 0 0 0 0 0 1 1 1 1 1 1 0 1 0 1 0 1 1 0 0 1 1 0 1 1 1 0 
-> Sequence #3: 0 1 1 0 1 1 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0 1 1 1 1 0 0 1 0 1 0 0 0 1 1 0 0 0 0 1 0 0 0 0 0 1 1 1 1 1 1 0 1 0 1 0 1 1 0 
-> 
-> Generate 3 MLS sequences using the device's entropy source std::random_device
-> Sequence #1: 1 0 1 0 1 0 1 1 0 0 1 1 0 1 1 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0 1 1 1 1 0 0 1 0 1 0 0 0 1 1 0 0 0 0 1 0 0 0 0 0 1 1 1 1 1 
-> Sequence #2: 1 1 1 1 1 0 1 0 1 0 1 1 0 0 1 1 0 1 1 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0 1 1 1 1 0 0 1 0 1 0 0 0 1 1 0 0 0 0 1 0 0 0 0 0 1 
-> Sequence #3: 0 0 0 0 1 0 0 0 0 0 1 1 1 1 1 1 0 1 0 1 0 1 1 0 0 1 1 0 1 1 1 0 1 1 0 1 0 0 1 0 0 1 1 1 0 0 0 1 0 1 1 1 1 0 0 1 0 1 0 0 0 1 1 
+![](https://raw.githubusercontent.com/ymirsky/MLSgen/master/sample_output.png)
 
 
 # Usage
