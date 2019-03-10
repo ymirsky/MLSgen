@@ -58,6 +58,10 @@ Things to note:
 * AES mode is seeded with random_device, so we assume that the API provides a truly random initial seed. 
 * To avoid repitions, the sequence size L (controlled with parameter m) must be relativly large (e.g., m=10). 
 
+# Citation
+I you use this tool, please cite our research paper:
+
+*Mirsky Y, Kalbo N, Elovici Y, Shabtai A. Vesper: Using Echo-Analysis to Detect Man-in-the-Middle Attacks in LANs. IEEE Transactions on Information Forensics and Security. 2018 Nov 23.*
 
 # License
 This project is licensed under the MIT License - see the [LICENSE.txt](LICENSE.txt) file for details
